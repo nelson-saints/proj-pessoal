@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://kit.fontawesome.com/c565e4dada.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./curriculo.html">Curriculo</a></li>
+                    <li><a href="./formulario.html">Formulario</a></li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/nelson.silva.104855/" target="_blank" class="btn-facebook"> <i class="icones fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/n.saints_/?hl=pt-br" target="_blank" class="btn-instagram"> <i class="icones fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.google.com/" target="_blank" class="btn-google"> <i class="icones fa fa-google" aria-hidden="true"></i></a>
+                </div>
+            </nav>
+    </header>
+    <h1 class="fichaCad">FICHA CADASTRAL</h1>
+    <div id="formulario">
+        <form>
+            <label  for="">Nome Completo:</label>
+            <input class="margem-top" type="text" name="PrimeiroNome" min="5" max="55">
+            <hr> 
+            <label for="RG">RG: </label>
+            <input class="margem-top" type="number" name="RG" >
+            <label for="CPF">C.P.F: </label>
+            <input class="margem-top" type="number" name="CPF" >
+            <br> <br>
+            <label for="endereco">Endereço: </label>
+            <input class="margem-top" type="text " name="endereco" min="15" max="55">
+            <br> <br>
+            <label for="">SEXO:</label>
+            <Select name="sexo">
+                <option value="masculino">Masculino
+                <option value="feminino">Feminino
+            </Select>
+
+            <label for="">Data Nascimento:</label>
+            <input type="date" name="DataNascimento">
+            <br>
+
+            <label for="">Situação Civil:</label>
+            <input type="radio" name="grupo" value="solteiro">
+                <hr>
+            <label for="">solteiro(a)</label>
+            <input type="radio" name="grupo" value="casado">
+            <label for="">Casado(a)</label>
+            <input type="radio" name="grupo" value="viuvo">
+            <label for="">Viuvo(a)</label>
+
+            <div class="linha">
+            <button id="btn_limp" onclick="Limpar()">Limpar Dados</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/formulario.js"></script> 
+
+    <footer>
+        <p><strong>Esse site foi feito por Nelson Silva</strong></p>
+      </footer>
+</body>
+
+</html>

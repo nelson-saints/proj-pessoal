@@ -1,0 +1,38 @@
+.titulo-principal{
+    padding: 10px;
+    background-color: #A9A9A9;
+    text-align: center;
+}
+
+#formulario {
+    margin-left:  auto;
+    margin-right:  auto;
+    width: 500px;
+}
+
+.icones{
+    color: #fff !important;
+    
+}
+
+.fichaCad{
+    text-align: center;
+}
+
+label{
+    padding: 1px;
+}
+
+#btn_limp{
+    margin: 0 auto;
+}
+
+.linha{
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.margem-top{
+    margin-top: 1rem;
+}
